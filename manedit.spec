@@ -70,7 +70,7 @@ Icon=%{name}
 Terminal=false
 Type=Application
 StartupNotify=false
-Categories=TextEditor
+Categories=TextEditor;
 EOF
 
 rm %{buildroot}%_iconsdir/*.xpm
