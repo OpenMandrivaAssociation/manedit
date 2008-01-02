@@ -15,6 +15,7 @@ Source0:        http://wolfpack.twu.net/users/wolfpack/%{name}-%{version}.tar.bz
 Patch0:         %{name}-0.6.1.lib64.patch
 BuildRequires:  ImageMagick
 BuildRequires:  gtk+1.2-devel
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 ManEdit was created due to a lack of editors for UNIX manual pages,
