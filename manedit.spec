@@ -1,5 +1,5 @@
 %define name    manedit
-%define version 0.8.1
+%define version 0.8.3
 %define release %mkrel 1
 %define title       ManEdit
 %define longtitle   UNIX manual pages editor
@@ -10,8 +10,8 @@ Release:        %{release}
 Summary:        UNIX manual pages editor
 License:        GPL
 Group:          Editors
-Url:            http://wolfpack.twu.net/ManEdit
-Source0:        http://wolfpack.twu.net/users/wolfpack/%{name}-%{version}.tar.bz2
+Url:            http://www.battlefieldlinux.com/wolfpack/ManEdit/
+Source0:        http://www.battlefieldlinux.com/wolfpack/packages/%{name}-%{version}.tar.bz2
 Patch0:         %{name}-0.6.1.lib64.patch
 BuildRequires:  ImageMagick
 BuildRequires:  gtk+1.2-devel
