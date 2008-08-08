@@ -1,6 +1,6 @@
 %define name    manedit
 %define version 1.1.1
-%define release %mkrel 1
+%define release %mkrel 2
 %define title       ManEdit
 %define longtitle   UNIX manual pages editor
 
