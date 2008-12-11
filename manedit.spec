@@ -13,7 +13,7 @@ Group:          Editors
 Url:            http://www.battlefieldlinux.com/wolfpack/ManEdit/
 Source0:        http://wolfsinger.com/~wolfpack/packages/%{name}-%{version}.tar.bz2
 Patch0:         %{name}-0.6.1.lib64.patch
-BuildRequires:  ImageMagick
+BuildRequires:  imagemagick
 BuildRequires:  gtk+1.2-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
