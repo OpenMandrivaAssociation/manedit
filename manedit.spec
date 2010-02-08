@@ -1,14 +1,14 @@
-%define name    manedit
-%define version 1.2.1
-%define release %mkrel 2
-%define title       ManEdit
-%define longtitle   UNIX manual pages editor
+%define name		manedit
+%define version		1.2.1
+%define release		%mkrel 3
+%define title		ManEdit
+%define longtitle	UNIX manual pages editor
 
 Name:           %{name}
 Version:        %{version}
 Release:        %{release}
 Summary:        UNIX manual pages editor
-License:        GPL
+License:        GPLv2
 Group:          Editors
 Url:            http://www.battlefieldlinux.com/wolfpack/ManEdit/
 Source0:        http://wolfsinger.com/~wolfpack/packages/%{name}-%{version}.tar.bz2
@@ -36,7 +36,7 @@ Page Editor and Viewer. It features:
 
 %prep
 %setup -q
-%patch0 -p 0
+%patch0 -p0
 
 %build
 export CFLAGS=$RPM_OPT_FLAGS
