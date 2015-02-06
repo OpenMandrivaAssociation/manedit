@@ -1,7 +1,7 @@
 Summary:	UNIX manual pages editor
 Name:		manedit
 Version:	1.2.1
-Release:	5
+Release:	6
 License:	GPLv2+
 Group:		Editors
 Url:		http://www.battlefieldlinux.com/wolfpack/ManEdit/
