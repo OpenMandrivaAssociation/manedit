@@ -4,7 +4,7 @@ Version:	1.2.1
 Release:	6
 License:	GPLv2+
 Group:		Editors
-Url:		http://www.battlefieldlinux.com/wolfpack/ManEdit/
+Url:		https://www.battlefieldlinux.com/wolfpack/ManEdit/
 Source0:	http://wolfsinger.com/~wolfpack/packages/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-0.6.1.lib64.patch
 Patch1:		manedit-1.2.1-no-strip.patch
